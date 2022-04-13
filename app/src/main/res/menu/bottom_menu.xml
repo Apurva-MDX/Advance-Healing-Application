@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/games"
+        android:icon="@drawable/ic_fidget_spinner"
+        android:title="Games"
+        />
+    <item
+        android:id="@+id/yoga"
+        android:icon="@drawable/ic_meditation"
+        android:title="Meditation"
+        />
+    <item
+        android:id="@+id/moodchecker"
+        android:icon="@drawable/ic_face"
+        android:title="Mood" />
+    <item
+        android:id="@+id/progression"
+        android:icon="@drawable/ic_progression"
+        android:title="Planner"
 
+        />
+    <item
+        android:id="@+id/grief"
+        android:icon="@drawable/ic_grief"
+        android:title="Grief"
+        />
 </menu>
