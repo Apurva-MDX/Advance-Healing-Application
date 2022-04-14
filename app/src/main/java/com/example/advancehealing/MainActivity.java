@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE); //This and the line below are responsible for hiding the title bar.
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_main);
         bottomNavigationView=findViewById(R.id.bottom_view); //Gets bottom view
         getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav1Fragment).commit(); //sets NAV1 as default fragment when app opens.
