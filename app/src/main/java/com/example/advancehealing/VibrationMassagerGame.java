@@ -8,12 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class FidgetSpinnerGame extends Fragment {
+public class VibrationMassagerGame extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view=inflater.inflate(R.layout.fragment_fidget_spinner_game, container, false); //Presents the fidget spinner game layout
+        View view=inflater.inflate(R.layout.fragment_vibration_massager_game, container, false); //Presents the vibration game layout
         return view;
     }
 }
