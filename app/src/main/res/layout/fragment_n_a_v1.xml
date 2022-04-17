@@ -3,9 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DADADA"
+    android:background="@drawable/nav1background"
+
     tools:context=".NAV1Fragment">
 
+    <ImageButton
+        android:id="@+id/fidgetBtn"
+        android:layout_width="165dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/content_desc_fidgetgame_btn"
+        android:src="@drawable/fidgetspinner" />
 
+    <ImageButton
+        android:id="@+id/fireworksBtn"
+        android:layout_width="165dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="450dp"
+        android:contentDescription="@string/content_desc_fireworkgame_btn"
+        android:src="@drawable/fireworks" />
+
+    <ImageButton
+        android:id="@+id/tictactoeBtn"
+        android:layout_width="165dp"
+        android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="139dp"
+        android:contentDescription="@string/content_desc_tictactoe_btn"
+        android:src="@drawable/tictactoe" />
+
+    <ImageButton
+        android:id="@+id/vibrationBtn"
+        android:layout_width="165dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="450dp"
+        android:contentDescription="@string/content_desc_vibrationgame_btn"
+        android:src="@drawable/vibration" />
 
 </RelativeLayout>

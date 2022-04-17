@@ -1,14 +1,19 @@
 package com.example.advancehealing;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class FidgetSpinnerGame extends AppCompatActivity {
+import androidx.fragment.app.Fragment;
 
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class FidgetSpinnerGame extends Fragment {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fidget_spinner_game);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View view=inflater.inflate(R.layout.fragment_fidget_spinner_game, container, false); //Presents the fidget spinner game fragment
+        return view;
     }
 }

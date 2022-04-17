@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottom_view" />
+
     <!--BottomNavigationView will act like the menu of the app-->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_view"
@@ -21,6 +22,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_menu"
+        app:itemBackground="@color/black"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#8BC34A"
+
         />
 
 

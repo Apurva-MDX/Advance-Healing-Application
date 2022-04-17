@@ -4,6 +4,8 @@
         android:id="@+id/games"
         android:icon="@drawable/ic_fidget_spinner"
         android:title="Games"
+
+
         />
     <item
         android:id="@+id/yoga"

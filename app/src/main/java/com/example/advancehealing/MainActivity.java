@@ -2,6 +2,7 @@ package com.example.advancehealing;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -27,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_main);
+
+        FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction(); // Allows fragment transaction
+        fragmentTransaction.add(R.id.container_layout, new NAV1Fragment()); //Opens Fragment 1 as default
+        fragmentTransaction.commit(); //commits the transaction
+
         bottomNavigationView=findViewById(R.id.bottom_view); //Gets bottom view
         getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav1Fragment).commit(); //sets NAV1 as default fragment when app opens.
 
