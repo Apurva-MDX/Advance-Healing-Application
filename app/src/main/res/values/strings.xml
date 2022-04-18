@@ -7,4 +7,7 @@
     <string name="content_desc_vibrationgame_btn">\@string/content_desc_vibrationgame_btn</string>
     <string name="content_desc_tictactoe_btn">\@string/content_desc_tictactoe_btn</string>
     <string name="content_desc_fireworkgame_btn">\@string/content_desc_fireworkgame_btn</string>
+    <string name="content_desc_startbtn">\@string/content_desc_startbtn</string>
+    <string name="content_desc_stopbtn">\@string/content_desc_stopbtn</string>
+    <string name="content_desc_backbtn">\@string/content_desc_backbtn</string>
 </resources>

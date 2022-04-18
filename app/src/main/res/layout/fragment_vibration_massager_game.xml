@@ -3,15 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DADADA"
+    android:background="@drawable/nav1digitalmassagerbackground"
     tools:context=".VibrationMassagerGame">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="138dp"
         android:layout_height="wrap_content"
-        android:text="Phone Vibrator/Massager Game"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="531dp"
+        android:backgroundTint="@android:color/black"
+        android:contentDescription="@string/content_desc_startbtn"
+        android:text="START"
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="613dp"
+        android:backgroundTint="@android:color/black"
+        android:contentDescription="@string/content_desc_stopbtn"
+        android:text="STOP"
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:textSize="24sp"
-        android:textColor="@color/black"/>
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/backbutton"
+        android:contentDescription="@string/content_desc_backbtn" />
 
 </RelativeLayout>

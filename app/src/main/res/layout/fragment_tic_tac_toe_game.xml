@@ -3,15 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DADADA"
+    android:background="@drawable/nav1digitaltictactoegame"
     tools:context=".TicTacToeGame">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TicTacToe Game"
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:textSize="24sp"
-        android:textColor="@color/black"/>
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/backbutton"
+        android:contentDescription="@string/content_desc_backbtn" />
 
 </RelativeLayout>
