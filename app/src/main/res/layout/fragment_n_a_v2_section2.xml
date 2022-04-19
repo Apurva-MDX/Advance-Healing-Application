@@ -2,25 +2,27 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/relativeLayout4"
+    android:id="@+id/relativeLayout8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nav1digitaltictactoegame"
-    tools:context=".TicTacToeGame">
+    android:background="@drawable/nav2background"
+    tools:context=".NAV2Fragment2">
 
     <ImageButton
-        android:id="@+id/backBtn"
-        android:layout_width="45dp"
-        android:layout_height="40dp"
+        android:id="@+id/music1Btn"
+        android:layout_width="346dp"
+        android:layout_height="61dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/backbutton"
-        android:contentDescription="@string/content_desc_backbtn"
+        android:background="@drawable/musicbutton2"
+        android:contentDescription="@string/content_desc_music1_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

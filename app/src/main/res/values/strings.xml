@@ -10,4 +10,23 @@
     <string name="content_desc_startbtn">\@string/content_desc_startbtn</string>
     <string name="content_desc_stopbtn">\@string/content_desc_stopbtn</string>
     <string name="content_desc_backbtn">\@string/content_desc_backbtn</string>
+    <string name="content_desc_music2_btn">\@string/content_desc_music2_btn</string>
+    <string name="content_desc_music1_btn">\@string/content_desc_music1_btn</string>
+    <string name="content_desc_savebtn">\@string/content_desc_savebtn</string>
+    <string name="content_desc_historybtn">\@string/content_desc_historybtn</string>
+    <string name="content_desc_routineView_btn">\@string/content_desc_routineView_btn</string>
+    <string name="content_desc_add_btn">\@string/content_desc_add_btn</string>
+    <string name="content_desc_delete_btn">\@string/content_desc_delete_btn</string>
+    <string name="content_desc_introBtn">\@string/content_desc_introBtn</string>
+    <string name="content_desc_intentionsBtn" />
+    <string name="content_desc_storiesBtn" />
+    <string name="content_desc_thoughtsBtn" />
+    <string name="content_desc_vid1Btn" />
+    <string name="content_desc_vid2Btn" />
+    <string name="content_desc_reachingoutBtn" />
+    <string name="content_desc_stayinghonestBtn" />
+    <string name="content_desc_storiesBtn1" />
+    <string name="content_desc_storiesBtn2" />
+    <string name="content_desc_storiesBtn3" />
+    <string name="content_desc_deletethoughtsBtn" />
 </resources>
