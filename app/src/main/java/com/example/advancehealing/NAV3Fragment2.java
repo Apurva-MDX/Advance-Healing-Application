@@ -30,5 +30,5 @@ public class NAV3Fragment2 extends Fragment implements View.OnClickListener{
                 ft3.replace(R.id.container_layout, new NAV3Fragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'FidgetSpinerGame' fragment.
                 ft3.commit(); //commits the changes
                 break;
-    }
-}}
+        }
+    }}

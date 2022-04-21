@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     NAV4Fragment nav4Fragment=new NAV4Fragment();
     NAV5Fragment nav5Fragment=new NAV5Fragment();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
