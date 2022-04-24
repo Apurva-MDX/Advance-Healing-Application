@@ -1,5 +1,6 @@
 package com.example.advancehealing;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -44,9 +45,8 @@ public class NAV1Fragment extends Fragment implements View.OnClickListener{
                 ft2.commit(); //commits the changes
                 break;
             case R.id.fireworksBtn:
-                FragmentTransaction ft3= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft3.replace(R.id.container_layout, new FireworkGame()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'FireworkGame' fragment.
-                ft3.commit(); //commits the changes
+                Intent intent = new Intent(getActivity(), FireworkGame.class);
+                startActivity(intent);
                 break;
             case R.id.tictactoeBtn:
                 FragmentTransaction ft4= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
