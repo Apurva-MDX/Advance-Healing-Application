@@ -1,5 +1,7 @@
 package com.example.advancehealing;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,32 +13,43 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.NumberPicker;
-
+import android.widget.Toast;
 
 public class NAV3Fragment extends Fragment implements View.OnClickListener{
-
-
+    View rootView;
+    EditText numPick, Addnotes;
+    Button saveRoutine, history_Btn;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        rootView=inflater.inflate(R.layout.fragment_n_a_v3, container, false); //Presents the nav4 layout
+        initview();
+        return rootView;
+    }
 
-        View view=inflater.inflate(R.layout.fragment_n_a_v3, container, false); //Presents the nav3 layout
-
-
-        Button button = (Button) view.findViewById(R.id.historyBtn); // Finds the 'backBtn' id from NAV3 fragment.
-        button.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
-        return view;
+    private void initview() {
+        numPick= rootView.findViewById(R.id.numberPicker);
+        Addnotes= rootView.findViewById(R.id.notes);
+        saveRoutine= rootView.findViewById(R.id.saveBtn);
+        saveRoutine.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.historyBtn:
-                FragmentTransaction ft3= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft3.replace(R.id.container_layout, new NAV3Fragment2()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'FidgetSpinerGame' fragment.
-                ft3.commit(); //commits the changes
-                break;
+
+        if (view.getId()==R.id.saveBtn){
+            Bundle bundle = new Bundle();
+            String num_pick = numPick.getText().toString();
+            String add_notes = Addnotes.getText().toString();
+            bundle.putString("numKey",num_pick);
+            bundle.putString("notesKey",add_notes);
+            NAV3Fragment2 nav3Fragment2 = new NAV3Fragment2();
+            nav3Fragment2.setArguments(bundle);
+            Toast.makeText(getContext().getApplicationContext(), "You have recorded your mood!", Toast.LENGTH_SHORT).show();
+            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container_layout, nav3Fragment2).commit();
         }
-    }}
+
+        }
+
+    }
