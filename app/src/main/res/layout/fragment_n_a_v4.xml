@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/black"
         android:contentDescription="@string/content_desc_add_btn"
-        android:text="+ ADD ROUTINE"
+        android:text="+ ADD/VIEW ROUTINE"
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,24 +23,132 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.989" />
+        app:layout_constraintVertical_bias="0.989"
+        android:onClick="this"
+        tools:ignore="OnClick" />
 
-    <Button
-        android:id="@+id/routineView_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/black"
-        android:contentDescription="@string/content_desc_routineView_btn"
-        android:text="VIEW MY ROUTINE(S)"
-        android:textColor="@color/white"
-        android:textSize="20dp"
+
+    <EditText
+        android:id="@+id/enter_days"
+        android:layout_width="280dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="e.g. Everyday, Monday, Tuesday..."
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.192"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/select_time1"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="Select your time..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/select_name1"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="Select routine name..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/select_time2"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="Select your time..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/select_name2"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="Select routine name..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/select_time3"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="Select your time..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/select_name3"
+        android:layout_width="175dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="Select routine name..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

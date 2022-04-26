@@ -22,16 +22,55 @@
 
     <TextView
         android:id="@+id/textViewReceiver"
-        android:layout_width="222dp"
-        android:layout_height="245dp"
-        android:text="TextView"
+        android:layout_width="350dp"
+        android:layout_height="213dp"
+        android:padding="20dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewReceiver1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/deleteMoodBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:contentDescription="@string/content_desc_delete_btn"
+        android:text="DELETE NOTE(s)"
+        android:textColor="@color/white"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.616" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
