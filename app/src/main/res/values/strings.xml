@@ -29,4 +29,5 @@
     <string name="content_desc_storiesBtn2" />
     <string name="content_desc_storiesBtn3" />
     <string name="content_desc_deletethoughtsBtn" />
+    <string name="content_desc_createbtn">\@string/content_desc_createbtn</string>
 </resources>

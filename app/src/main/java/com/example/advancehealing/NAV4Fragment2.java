@@ -64,7 +64,7 @@ public class NAV4Fragment2 extends Fragment implements View.OnClickListener{
             public void onClick(View view) {
                 String Text = textView.getText().toString();
 
-                    textView.setText(""); //else, if the text is written on the textbox, it will become empty and generates a text message
+                textView.setText(""); //else, if the text is written on the textbox, it will become empty and generates a text message
                 textView2.setText("");
                 textView3.setText("");
                 textView4.setText("");
@@ -87,5 +87,5 @@ public class NAV4Fragment2 extends Fragment implements View.OnClickListener{
                 ft4.replace(R.id.container_layout, new NAV4Fragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'FidgetSpinerGame' fragment.
                 ft4.commit(); //commits the changes
                 break;
-    }
-}}
+        }
+    }}

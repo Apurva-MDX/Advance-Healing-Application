@@ -23,7 +23,7 @@ public class NAV3Fragment extends Fragment implements View.OnClickListener{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        rootView=inflater.inflate(R.layout.fragment_n_a_v3, container, false); //Presents the nav4 layout
+        rootView=inflater.inflate(R.layout.fragment_n_a_v3, container, false); //Presents the nav3 layout
         initview();
         return rootView;
     }
