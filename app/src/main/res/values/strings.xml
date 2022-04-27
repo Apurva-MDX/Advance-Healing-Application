@@ -30,4 +30,7 @@
     <string name="content_desc_storiesBtn3" />
     <string name="content_desc_deletethoughtsBtn" />
     <string name="content_desc_createbtn">\@string/content_desc_createbtn</string>
+    <string name="content_desc_hide" />
+    <string name="content_desc_stop1_btn" />
+    <string name="content_desc_stop2_btn" />
 </resources>
