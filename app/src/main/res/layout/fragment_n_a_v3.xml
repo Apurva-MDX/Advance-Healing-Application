@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/black"
         android:contentDescription="@string/content_desc_savebtn"
-        android:text="SAVE/VIEW NOTE"
+        android:text="SAVE NOTE"
         android:textColor="@color/white"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"

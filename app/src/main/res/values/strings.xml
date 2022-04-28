@@ -33,4 +33,5 @@
     <string name="content_desc_hide" />
     <string name="content_desc_stop1_btn" />
     <string name="content_desc_stop2_btn" />
+    <string name="content_desc_beginbtn" />
 </resources>

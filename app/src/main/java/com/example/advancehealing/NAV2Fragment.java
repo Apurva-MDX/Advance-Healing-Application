@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-
 public class NAV2Fragment extends Fragment {
 
     @Override
@@ -29,8 +28,8 @@ public class NAV2Fragment extends Fragment {
             @Override
             public void onClick(View view) {
                 musicPlayer1.start();
-            }
-        }); //calls the OnClickListener from within the class (line 14).
+            } //starts the music
+        });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,6 +49,4 @@ public class NAV2Fragment extends Fragment {
             }
         });
         return view;
-    }
-
-    }
+    } }

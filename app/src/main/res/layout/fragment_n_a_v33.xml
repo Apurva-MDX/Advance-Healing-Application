@@ -2,27 +2,28 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/relativeLayout8"
+    android:id="@+id/frameLayout8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/nav2background"
-    tools:context=".NAV2Fragment2">
+    android:background="@drawable/nav3_3"
+    tools:context=".NAV3Fragment3">
 
-    <ImageButton
-        android:id="@+id/music1Btn"
-        android:layout_width="346dp"
-        android:layout_height="61dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:background="@drawable/musicbutton2"
-        android:contentDescription="@string/content_desc_music1_btn"
+    <Button
+        android:id="@+id/beginBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@android:color/black"
+        android:contentDescription="@string/content_desc_beginbtn"
+        android:text="START / View Notes"
+        android:textColor="@color/white"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.522" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

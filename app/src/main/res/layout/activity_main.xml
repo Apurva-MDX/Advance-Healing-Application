@@ -23,8 +23,8 @@
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_menu"
         app:itemBackground="@color/black"
-        app:itemIconTint="#FFFFFF"
         app:itemTextColor="#8BC34A"
+        app:itemIconTint="@drawable/bottom_navigation_selector"
 
         />
 

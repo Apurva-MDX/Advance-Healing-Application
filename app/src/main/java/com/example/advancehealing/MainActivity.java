@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     NAV1Fragment nav1Fragment=new NAV1Fragment();
     NAV2Fragment nav2Fragment=new NAV2Fragment();
-    NAV3Fragment nav3Fragment=new NAV3Fragment();
+    NAV3Fragment3 nav3Fragment3=new NAV3Fragment3();
     NAV4Fragment nav4Fragment=new NAV4Fragment();
     NAV5Fragment nav5Fragment=new NAV5Fragment();
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav2Fragment).commit();
                         return true;
                     case R.id.moodchecker: //if the 'moodchecker' button is pressed, NAV3 fragment opens.
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav3Fragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav3Fragment3).commit();
                         return true;
                     case R.id.progression: //if the 'routine' button is pressed, NAV4 fragment opens.
                         getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav4Fragment).commit();

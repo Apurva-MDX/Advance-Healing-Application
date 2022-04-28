@@ -53,7 +53,7 @@ public class NAV3Fragment2 extends Fragment implements View.OnClickListener{
         switch (view.getId()) {
             case R.id.backBtn:
                 FragmentTransaction ft4= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft4.replace(R.id.container_layout, new NAV3Fragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'FidgetSpinerGame' fragment.
+                ft4.replace(R.id.container_layout, new NAV3Fragment3()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'FidgetSpinerGame' fragment.
                 ft4.commit(); //commits the changes
                 break;
         }

@@ -6,6 +6,7 @@
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17291666666666666" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/drawable/bg_circle_inner.xml" value="0.184375" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/drawable/bg_circle_outer.xml" value="0.184375" />
+        <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/drawable/ic_face.xml" value="0.17291666666666666" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/drawable/ic_fidget_spinner.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/drawable/ic_grief.xml" value="0.17291666666666666" />
@@ -30,6 +31,7 @@
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v2.xml" value="0.264" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v2_section2.xml" value="0.264" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v3.xml" value="0.4" />
+        <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v33.xml" value="0.23641304347826086" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v3_section2.xml" value="0.264" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v4.xml" value="0.4" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v42.xml" value="0.2265625" />
@@ -37,7 +39,7 @@
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v5.xml" value="0.4" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v5_reaching_out.xml" value="0.2" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_n_a_v5_staying_honest.xml" value="0.2421875" />
-        <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_stories.xml" value="0.2" />
+        <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_stories.xml" value="0.264" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_test.xml" value="0.2265625" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_thoughts.xml" value="0.2" />
         <entry key="..\:/Users/hingu/Desktop/My Study -Middlesex/Year 3/CST-3990 - Undergraduate Individual Project/Final year Project/app/src/main/res/layout/fragment_tic_tac_toe_game.xml" value="0.2265625" />

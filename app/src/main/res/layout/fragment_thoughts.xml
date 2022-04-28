@@ -24,7 +24,7 @@
         android:id="@+id/deleteBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/black"
+        android:backgroundTint="#8E0C37"
         android:contentDescription="@string/content_desc_deletethoughtsBtn"
         android:text="   FINISH   "
         android:textColor="@color/white"
