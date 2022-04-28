@@ -17,11 +17,11 @@ public class NAV5Fragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view=inflater.inflate(R.layout.fragment_n_a_v5, container, false); //Presents the nav5 layout
-        ImageButton button = (ImageButton) view.findViewById(R.id.introBtn); // Finds the 'introBtn' id from NAV5 fragment.
-        ImageButton button2 = (ImageButton) view.findViewById(R.id.intentionsBtn); // Finds the 'intentionsBtn' id from NAV5 fragment.
-        ImageButton button3 = (ImageButton) view.findViewById(R.id.storiesBtn); // Finds the 'storiesBtn' id from NAV5 fragment.
-        ImageButton button4 = (ImageButton) view.findViewById(R.id.thoughtsBtn); // Finds the 'thoughtsBtn' id from NAV5 fragment.
+        View view=inflater.inflate(R.layout.fragment_n_a_v5, container, false); //Presents the 'fragment_n_a_v5' layout
+        ImageButton button = (ImageButton) view.findViewById(R.id.introBtn); // Finds the 'introBtn' id from NAV5 layout.
+        ImageButton button2 = (ImageButton) view.findViewById(R.id.intentionsBtn); // Finds the 'intentionsBtn' id from NAV5 layout.
+        ImageButton button3 = (ImageButton) view.findViewById(R.id.storiesBtn); // Finds the 'storiesBtn' id from NAV5 layout.
+        ImageButton button4 = (ImageButton) view.findViewById(R.id.thoughtsBtn); // Finds the 'thoughtsBtn' id from NAV5 layout.
         button.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
         button2.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
         button3.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
@@ -39,18 +39,18 @@ public class NAV5Fragment extends Fragment implements View.OnClickListener{
                 break;
             case R.id.intentionsBtn:
                 FragmentTransaction ft6= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft6.replace(R.id.container_layout, new IntentionsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'IntroductionFragment' fragment.
+                ft6.replace(R.id.container_layout, new IntentionsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'IntentionsFragment' fragment.
                 ft6.commit(); //commits the changes
                 break;
             case R.id.storiesBtn:
                 FragmentTransaction ft7= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft7.replace(R.id.container_layout, new StoriesFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'IntroductionFragment' fragment.
+                ft7.replace(R.id.container_layout, new StoriesFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'StoriesFragment' fragment.
                 ft7.commit(); //commits the changes
                 break;
             case R.id.thoughtsBtn:
                 FragmentTransaction ft8= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft8.replace(R.id.container_layout, new ThoughtsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'IntroductionFragment' fragment.
+                ft8.replace(R.id.container_layout, new ThoughtsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'ThoughtsFragment' fragment.
                 ft8.commit(); //commits the changes
                 break;
-    }
-}}
+        }
+    }}

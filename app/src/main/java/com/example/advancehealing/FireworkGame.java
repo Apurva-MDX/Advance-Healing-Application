@@ -43,9 +43,7 @@ public class FireworkGame extends AppCompatActivity {
             }
         });
 
-
-        // to hide action bar
-        getSupportActionBar().hide();
+        getSupportActionBar().hide(); // to hide action bar
 
         // to set orientation to potrait
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -91,7 +89,7 @@ public class FireworkGame extends AppCompatActivity {
         // setting positions of lottie file
         cracker.setX(x);
         cracker.setY(y);
-        // adding lottieanimationview to relative layout
+        // adding lottieanimationview to relative layout (which I imported in the Gradle)
         layout.addView(cracker);
         cracker.playAnimation();
         // function to generate sound

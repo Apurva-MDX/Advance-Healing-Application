@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
-
 public class NAV1Fragment extends Fragment implements View.OnClickListener{
 
 
@@ -45,8 +44,8 @@ public class NAV1Fragment extends Fragment implements View.OnClickListener{
                 ft2.commit(); //commits the changes
                 break;
             case R.id.fireworksBtn:
-                Intent intent = new Intent(getActivity(), FireworkGame.class);
-                startActivity(intent);
+                Intent intent = new Intent(getActivity(), FireworkGame.class); //Finds the FireworkGame activity
+                startActivity(intent); //Starts the Firework activity
                 break;
             case R.id.tictactoeBtn:
                 FragmentTransaction ft4= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction

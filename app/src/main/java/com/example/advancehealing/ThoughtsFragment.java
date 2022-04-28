@@ -20,8 +20,8 @@ public class ThoughtsFragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view=inflater.inflate(R.layout.fragment_thoughts, container, false); //Presents the nav5 layout
-        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id from NAV3 section2 fragment.
+        View view=inflater.inflate(R.layout.fragment_thoughts, container, false); //Presents the 'fragment_thoughts' layout
+        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id
 
         EditText edt = view.findViewById(R.id.editText);  // Finds the 'editText' id from the thoughts fragment.
         Button delete = view.findViewById(R.id.deleteBtn);  // Finds the 'deleteBtn' id from the thoughts fragment.
@@ -33,13 +33,13 @@ public class ThoughtsFragment extends Fragment implements View.OnClickListener{
                 if (Text.isEmpty()){ //if the text is empty, it generates the text below.
                     Toast.makeText(getContext().getApplicationContext(), "Please enter your thoughts!", Toast.LENGTH_SHORT).show();
                 }else {
-                    edt.setText(""); //else, if the text is written on the textbox, it will become empty and generates a text message
+                    edt.setText(""); //else, if the text is written on the textbox, it will become empty and generate this toast message.
                     Toast.makeText(getContext().getApplicationContext(), "You have destroyed your thoughts!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        button.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
+        button.setOnClickListener(this); //calls the OnClickListener from within the class (line 17).
         return view;
     }
 
@@ -51,5 +51,5 @@ public class ThoughtsFragment extends Fragment implements View.OnClickListener{
                 ft5.replace(R.id.container_layout, new NAV5Fragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5Fragment' fragment.
                 ft5.commit(); //commits the changes
                 break;
-    }
-}}
+        }
+    }}

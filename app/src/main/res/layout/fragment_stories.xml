@@ -22,7 +22,7 @@
 
     <ImageButton
         android:id="@+id/storiesBtn1"
-        android:layout_width="340dp"
+        android:layout_width="385dp"
         android:layout_height="75dp"
         android:background="@drawable/nav5storiesbtn1"
         android:contentDescription="@string/content_desc_storiesBtn1"
@@ -35,9 +35,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.693" />
 
+    <Button
+        android:layout_width="73dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#5B7301"
+        android:text="STOP"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.940"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
     <ImageButton
         android:id="@+id/storiesBtn2"
-        android:layout_width="343dp"
+        android:layout_width="385dp"
         android:layout_height="75dp"
         android:background="@drawable/nav5storiesbtn2"
         android:contentDescription="@string/content_desc_storiesBtn2"
@@ -50,9 +67,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.830" />
 
+    <Button
+        android:layout_width="73dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#5B7301"
+        android:text="STOP"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.940"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
     <ImageButton
         android:id="@+id/storiesBtn3"
-        android:layout_width="340dp"
+        android:layout_width="385dp"
         android:layout_height="75dp"
         android:background="@drawable/nav5storiesbtn3"
         android:contentDescription="@string/content_desc_storiesBtn3"
@@ -64,5 +98,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.967" />
+
+    <Button
+        android:layout_width="73dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#5B7301"
+        android:text="STOP"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.940"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.950" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

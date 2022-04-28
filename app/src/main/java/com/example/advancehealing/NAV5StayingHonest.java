@@ -18,8 +18,8 @@ public class NAV5StayingHonest extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view=inflater.inflate(R.layout.fragment_n_a_v5_staying_honest, container, false); //Presents the nav5 layout
-        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id from NAV3 section2 fragment.
+        View view=inflater.inflate(R.layout.fragment_n_a_v5_staying_honest, container, false); //Presents the nav5stayingHonest layout
+        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id
         button.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
         return view;
     }
@@ -29,8 +29,8 @@ public class NAV5StayingHonest extends Fragment implements View.OnClickListener{
         switch (view.getId()) {
             case R.id.backBtn:
                 FragmentTransaction ft5= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft5.replace(R.id.container_layout, new IntentionsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5Fragment' fragment.
+                ft5.replace(R.id.container_layout, new IntentionsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'IntentionsFragment' fragment.
                 ft5.commit(); //commits the changes
                 break;
-    }
-}}
+        }
+    }}

@@ -38,16 +38,16 @@ public class IntentionsFragment extends Fragment implements View.OnClickListener
                 break;
             case R.id.reachingoutBtn:
                 FragmentTransaction ft6= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft6.replace(R.id.container_layout, new NAV5ReachingOut()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5Fragment' fragment.
+                ft6.replace(R.id.container_layout, new NAV5ReachingOut()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5ReachingOut' fragment.
                 ft6.commit(); //commits the changes
                 break;
             case R.id.stayinghonestBtn:
                 FragmentTransaction ft7= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft7.replace(R.id.container_layout, new NAV5StayingHonest()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5Fragment' fragment.
+                ft7.replace(R.id.container_layout, new NAV5StayingHonest()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5StayingHonest' fragment.
                 ft7.commit(); //commits the changes
                 break;
 
 
 
         }
-}}
+    }}

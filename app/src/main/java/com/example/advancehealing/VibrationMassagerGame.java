@@ -37,7 +37,7 @@ public class VibrationMassagerGame extends Fragment implements View.OnClickListe
             public void onClick(View view) { //when the button is clicked or touched
 
                 long[] pattern = {0,200,10,500}; // My custom pattern of vibration is played (This is my own massager pattern)
-            vibrator.vibrate(pattern, 0); //Keeps repeating the pattern
+                vibrator.vibrate(pattern, 0); //Keeps repeating the pattern
             }
         });
 
@@ -63,5 +63,5 @@ public class VibrationMassagerGame extends Fragment implements View.OnClickListe
                 break;
 
 
-    }
-}}
+        }
+    }}

@@ -19,7 +19,7 @@ public class NAV5ReachingOut extends Fragment implements View.OnClickListener{
                              Bundle savedInstanceState) {
 
         View view=inflater.inflate(R.layout.fragment_n_a_v5_reaching_out, container, false); //Presents the nav5 layout
-        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id from NAV3 section2 fragment.
+        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id from NAV5 layout.
         button.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
         return view;
     }
@@ -29,8 +29,8 @@ public class NAV5ReachingOut extends Fragment implements View.OnClickListener{
         switch (view.getId()) {
             case R.id.backBtn:
                 FragmentTransaction ft5= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft5.replace(R.id.container_layout, new IntentionsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5Fragment' fragment.
+                ft5.replace(R.id.container_layout, new IntentionsFragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'IntentionsFragment'.
                 ft5.commit(); //commits the changes
                 break;
-    }
-}}
+        }
+    }}

@@ -8,46 +8,46 @@
     android:background="@drawable/nav5intentions"
     tools:context=".IntentionsFragment">
 
-    <ImageButton
-        android:id="@+id/backBtn"
-        android:layout_width="45dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/backbutton"
-        android:contentDescription="@string/content_desc_backbtn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+  <ImageButton
+      android:id="@+id/backBtn"
+      android:layout_width="45dp"
+      android:layout_height="40dp"
+      android:layout_marginStart="12dp"
+      android:layout_marginLeft="12dp"
+      android:layout_marginTop="12dp"
+      android:background="@drawable/backbutton"
+      android:contentDescription="@string/content_desc_backbtn"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/reachingoutBtn"
-        android:layout_width="380dp"
-        android:layout_height="88dp"
-        android:background="@drawable/nav5intentionsbtn1"
-        android:contentDescription="@string/content_desc_reachingoutBtn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+  <ImageButton
+      android:id="@+id/reachingoutBtn"
+      android:layout_width="380dp"
+      android:layout_height="88dp"
+      android:background="@drawable/nav5intentionsbtn1"
+      android:contentDescription="@string/content_desc_reachingoutBtn"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.484"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.808" />
 
-    <ImageButton
-        android:id="@+id/stayinghonestBtn"
-        android:layout_width="380dp"
-        android:layout_height="88dp"
-        android:background="@drawable/nav5intentionsbtn2"
-        android:contentDescription="@string/content_desc_stayinghonestBtn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971" />
+  <ImageButton
+      android:id="@+id/stayinghonestBtn"
+      android:layout_width="380dp"
+      android:layout_height="88dp"
+      android:background="@drawable/nav5intentionsbtn2"
+      android:contentDescription="@string/content_desc_stayinghonestBtn"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.484"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.971" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

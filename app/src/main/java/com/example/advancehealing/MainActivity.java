@@ -15,12 +15,12 @@ import com.google.android.material.navigation.NavigationBarView;
 
 public class MainActivity extends AppCompatActivity {
 //Linking to the fragments
-    BottomNavigationView bottomNavigationView;
-    NAV1Fragment nav1Fragment=new NAV1Fragment();
-    NAV2Fragment nav2Fragment=new NAV2Fragment();
-    NAV3Fragment3 nav3Fragment3=new NAV3Fragment3();
-    NAV4Fragment nav4Fragment=new NAV4Fragment();
-    NAV5Fragment nav5Fragment=new NAV5Fragment();
+    BottomNavigationView bottomNavigationView;   //defines the bottomNavigationView fragment
+    NAV1Fragment nav1Fragment=new NAV1Fragment();  //defines the NAV1Fragment
+    NAV2Fragment nav2Fragment=new NAV2Fragment();  //defines the NAV2Fragment
+    NAV3Fragment3 nav3Fragment3=new NAV3Fragment3();  //defines the NAV3Fragment3
+    NAV4Fragment nav4Fragment=new NAV4Fragment();  //defines the NAV4Fragment
+    NAV5Fragment nav5Fragment=new NAV5Fragment();  //defines the NAV5Fragment
 
 
     @Override
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.games: //if the 'games' button is pressed, NAV1 fragment opens.
                         getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav1Fragment).commit();
                         return true;
-                    case R.id.yoga: //if the 'meditation' button is pressed, NAV2 fragment opens.
+                    case R.id.yoga: //if the 'yoga' button is pressed, NAV2 fragment opens.
                         getSupportFragmentManager().beginTransaction().replace(R.id.container_layout,nav2Fragment).commit();
                         return true;
                     case R.id.moodchecker: //if the 'moodchecker' button is pressed, NAV3 fragment opens.

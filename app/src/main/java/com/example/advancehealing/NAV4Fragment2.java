@@ -27,8 +27,8 @@ public class NAV4Fragment2 extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        rootview =inflater.inflate(R.layout.fragment_n_a_v4_section2, container, false); //Presents the nav3_section2 layout
-        ImageButton button = (ImageButton) rootview.findViewById(R.id.backBtn); // Finds the 'backBtn' id from NAV3 section2 fragment.
+        rootview =inflater.inflate(R.layout.fragment_n_a_v4_section2, container, false); //Presents the fragment_n_a_v4_section2 layout
+        ImageButton button = (ImageButton) rootview.findViewById(R.id.backBtn); // Finds the 'backBtn' id from NAV4 section2 layout (.xml).
         days_display = rootview.findViewById(R.id.days_display);
         Time1 = rootview.findViewById(R.id.time1);
         Time2 = rootview.findViewById(R.id.time2);
@@ -52,7 +52,7 @@ public class NAV4Fragment2 extends Fragment implements View.OnClickListener{
         Name2.setText(name2);
         Name3.setText(name3);
         TextView textView = rootview.findViewById(R.id.days_display);  // Finds the 'days_display' id from the NAV4 section2 fragment.
-        TextView textView2 = rootview.findViewById(R.id.time1);  // Finds the 'days_display' id from the NAV4 section2 fragment.
+        TextView textView2 = rootview.findViewById(R.id.time1);
         TextView textView3 = rootview.findViewById(R.id.time2);
         TextView textView4 = rootview.findViewById(R.id.time3);
         TextView textView5 = rootview.findViewById(R.id.name1);
@@ -64,14 +64,14 @@ public class NAV4Fragment2 extends Fragment implements View.OnClickListener{
             public void onClick(View view) {
                 String Text = textView.getText().toString();
 
-                textView.setText(""); //else, if the text is written on the textbox, it will become empty and generates a text message
+                textView.setText(""); //if the text is written on the textbox, it will become empty
                 textView2.setText("");
                 textView3.setText("");
                 textView4.setText("");
                 textView5.setText("");
                 textView6.setText("");
                 textView7.setText("");
-                Toast.makeText(getContext().getApplicationContext(), "You have deleted your routine!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext().getApplicationContext(), "You have deleted your routine!", Toast.LENGTH_SHORT).show();  //Generates this toast message after the button is pressed.
 
             }
         });
@@ -84,7 +84,7 @@ public class NAV4Fragment2 extends Fragment implements View.OnClickListener{
         switch (view.getId()) {
             case R.id.backBtn:
                 FragmentTransaction ft4= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
-                ft4.replace(R.id.container_layout, new NAV4Fragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'FidgetSpinerGame' fragment.
+                ft4.replace(R.id.container_layout, new NAV4Fragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV4Fragment' fragment.
                 ft4.commit(); //commits the changes
                 break;
         }

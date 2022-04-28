@@ -18,7 +18,7 @@ public class StoriesFragment extends Fragment implements View.OnClickListener{
                              Bundle savedInstanceState) {
 
         View view=inflater.inflate(R.layout.fragment_stories, container, false); //Presents the nav5 layout
-        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id from NAV3 section2 fragment.
+        ImageButton button = (ImageButton) view.findViewById(R.id.backBtn); // Finds the 'backBtn' id
         button.setOnClickListener(this); //calls the OnClickListener from within the class (line 14).
         return view;
     }
@@ -26,10 +26,10 @@ public class StoriesFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.backBtn:
+            case R.id.backBtn: //gets the back button id
                 FragmentTransaction ft5= getFragmentManager().beginTransaction(); //if clicked, it begins the transaction
                 ft5.replace(R.id.container_layout, new NAV5Fragment()); //finds 'container_layout' from MainActivity FrameLayout and replaces with 'NAV5Fragment' fragment.
                 ft5.commit(); //commits the changes
                 break;
-    }
-}}
+        }
+    }}
